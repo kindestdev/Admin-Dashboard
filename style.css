@@ -277,6 +277,11 @@ a{
     border: none;
     /* padding: 1vh; */
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 100%;
+    justify-content: center;
+    text-align: start;
+
+
 }
 
 .anuncios:hover{
@@ -287,9 +292,14 @@ a{
 }
 .announcements h1{
 font-size: 2vh;
+text-align: start;
+width: auto;
+justify-self: start;
+/* padding-left: 10%; */
 }
 .announcements p{
     color: #909090;
+    width: 60%;
 
 }
 .announcementsTittle{
@@ -299,10 +309,19 @@ font-size: 2vh;
     font-size: 3vh;
 }
 .anuncios{
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     justify-self: center;
-    padding: 2vh;
+    /* padding: 2vh; */
+    /* padding-right: 3vh;
+    padding-left: 3vh; */
     border-radius: 10px;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
 }
 .one,.two{
     border-bottom: 1px solid #ccc;
