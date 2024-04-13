@@ -33,6 +33,10 @@ a{
     padding: 3vh;
     gap: 5vh;
 }
+#Logo{
+    font-size: 3vh;
+
+}
 .header{
     display: flex;
     align-items: center;
@@ -144,6 +148,10 @@ a{
     gap: 3vh;
     width: 30%;
 }
+#lupita{
+    font-size: 2.3vh;
+
+}
 .lupa{
     width: 2vh;
 }
@@ -196,6 +204,7 @@ a{
     background-color: #0ea5e9;
     color: white;
     border: none;
+    font-size: 1.5vh;
 }
 .upload button:hover{
     background-color: #0ea4e999;
@@ -259,6 +268,7 @@ a{
 }
 .cards p{
     color: #909090;
+    font-size: 1.8vh;
 }
 
 /* right main side */
@@ -272,7 +282,7 @@ a{
 
 .announcements{
     display: grid;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
     border: none;
     /* padding: 1vh; */
@@ -295,11 +305,12 @@ font-size: 2vh;
 text-align: start;
 width: auto;
 justify-self: start;
-/* padding-left: 10%; */
 }
 .announcements p{
     color: #909090;
     width: 60%;
+    font-size: 1.5vh;
+
 
 }
 .announcementsTittle{
@@ -314,9 +325,6 @@ justify-self: start;
     align-items: center;
     width: 100%;
     justify-self: center;
-    /* padding: 2vh; */
-    /* padding-right: 3vh;
-    padding-left: 3vh; */
     border-radius: 10px;
     justify-content: center;
     padding-top: 2vh;
@@ -332,7 +340,7 @@ justify-self: start;
     display:grid;
     grid-template-rows: repeat(4,1fr);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1vh;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -364,6 +372,8 @@ justify-self: start;
 }
 .usuario p{
     color:#909090 ;
+    font-size: 1.5vh;
+
 }
 .trendingTitle{
     font-size: 3vh;
